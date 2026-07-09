@@ -1,0 +1,14 @@
+# Never commit these in production
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Keep the lock file though — commit .terraform.lock.hcl
